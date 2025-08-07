@@ -16,7 +16,7 @@ function Contact() {
     e.preventDefault();
     setStatus('Sending...');
 
-    const API = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+    const API = import.meta.env.VITE_API_BASE_URL;
 
 axios.post(`${API}/api/contact`, formData)
   .then((res) => {

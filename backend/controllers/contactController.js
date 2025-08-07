@@ -21,7 +21,7 @@ export const sendContactMessage = async (req, res) => {
 
     await transporter.sendMail({
       from: `"${name}" <${email}>`,
-      to: process.env.EMAIL_USER,
+      to: process.env.RECEIVER_EMAIL,
       subject: `Portfolio Contact Message from ${name}`,
       html: `
         <h3>You have a new message</h3>

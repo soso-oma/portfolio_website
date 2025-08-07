@@ -260,6 +260,39 @@
   text-align: left;
 }
 
+/* Responsive layout for tablets and smaller screens */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-pic {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-text {
+    flex: none;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+  .about-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .about-pic {
+    border-radius: 8px;
+  }
+}
+
 .skills-title {
   font-size: 1.5rem;
   margin-top: 2rem;

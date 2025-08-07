@@ -8,18 +8,25 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+const allowedOrigins = ['https://mmesoma-portfolio.netlify.app'];
+
+app.use(cors({
+  origin: allowedOrigins,
+  methods: ['GET', 'POST'],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Routes
-app.use('/api/contact', contactRoutes); // ✅
+app.use('/api/contact', contactRoutes);
 
 // Health check
 app.get('/', (req, res) => {
   res.send('✅ API is running...');
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
