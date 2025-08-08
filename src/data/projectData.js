@@ -30,6 +30,18 @@ const projects = [
     githubLink: "https://github.com/soso-oma/MyBlog",
   
   },
+
+  {
+    title: "Portfolio Website",
+    description:
+      "A modern, responsive personal portfolio website built to showcase my skills, projects, and resume. Features a clean design, dedicated project pages, and a downloadable resume in PDF format.",
+    tech: ["React.js", "Vite", "JavaScript (ES6+)", "CSS3", "HTML5"],
+    image: portfolio,
+    liveLink: "https://mmesoma-portfolio.netlify.app/",
+    githubLink: "https://github.com/soso-oma/portfolio_website"
+    
+  },
+
   {
     title: "MyJournal",
     description:
@@ -46,15 +58,6 @@ const projects = [
     liveLink: "https://myjournal-app-kygs.onrender.com",
     githubLink: "https://github.com/soso-oma/myjournal_app"
   },
-  {
-    title: "Portfolio Website",
-    description:
-      "A modern, responsive personal portfolio website built to showcase my skills, projects, and resume. Features a clean design, dedicated project pages, and a downloadable resume in PDF format.",
-    tech: ["React.js", "Vite", "JavaScript (ES6+)", "CSS3", "HTML5"],
-    image: portfolio,
-    liveLink: "https://mmesoma-portfolio.netlify.app/",
-    githubLink: "https://github.com/soso-oma/portfolio_website"
-  }
 ];
 
 export default projects;
