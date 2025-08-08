@@ -76,7 +76,7 @@ axios.post(`${API}/api/contact`, formData)
       {/* Social Links */}
       <div className="social-links" style={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
         <a
-          href="https://www.linkedin.com/in/mmesomachukwu-anyim-518960243?"
+          href="https://www.linkedin.com/in/mmesomachukwu-anyim"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
