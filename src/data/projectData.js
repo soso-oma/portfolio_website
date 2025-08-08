@@ -26,7 +26,7 @@ const projects = [
       "Tailwind",
     ],
     image: mybloghome,
-    liveLink: "https://myblog-qokl.onrender.com",
+    liveLink: "https://my-blog-oma.netlify.app/",
     githubLink: "https://github.com/soso-oma/MyBlog",
   
   },
@@ -52,8 +52,8 @@ const projects = [
       "A modern, responsive personal portfolio website built to showcase my skills, projects, and resume. Features a clean design, dedicated project pages, and a downloadable resume in PDF format.",
     tech: ["React.js", "Vite", "JavaScript (ES6+)", "CSS3", "HTML5"],
     image: portfolio,
-    liveLink: "https://myportfolio.com",
-    githubLink: "https://github.com/username/myportfolio"
+    liveLink: "https://mmesoma-portfolio.netlify.app/",
+    githubLink: "https://github.com/soso-oma/portfolio_website"
   }
 ];
 
