@@ -14,7 +14,7 @@ function About() {
           className="about-pic"
         />
 
-        {/* Text */}
+        {/* Intro */}
         <div className="about-text">
           <p>
             Hi, I’m <strong>Mmesomachukwu Ozioma Anyim</strong>, a junior front-end web developer passionate about creating impactful digital solutions.
@@ -57,7 +57,7 @@ function About() {
         </li>
       </ul>
 
-      {/* Call to Action */}
+      {/* project button */}
       <div className="cta-container">
         <a href="/projects" className="cta-button">
           View My Projects

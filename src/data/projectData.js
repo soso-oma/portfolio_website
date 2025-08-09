@@ -1,10 +1,7 @@
-// MyBlog images
 import mybloghome from "../assets/projects/mybloghome.png";
 
-// MyJournal images
 import myjournalhome from "../assets/projects/MyJournalHomePage.png";
 
-// Portfolio image
 import portfolio from "../assets/projects/portfolio.png";
 
 const projects = [

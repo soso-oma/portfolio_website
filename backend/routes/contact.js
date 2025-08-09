@@ -15,24 +15,24 @@ router.post('/', async (req, res) => {
   }
 
   try {
-    // Create email transporter
+    // Email transporter
     const transporter = nodemailer.createTransport({
-      service: 'gmail', // Or 'hotmail', 'yahoo', etc.
+      service: 'gmail', 
       auth: {
-        user: process.env.EMAIL_USER, // Your email
-        pass: process.env.EMAIL_PASS, // Your email app password
+        user: process.env.EMAIL_USER, 
+        pass: process.env.EMAIL_PASS, 
       },
     });
 
     // Define email content
     const mailOptions = {
       from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
-      to: process.env.RECEIVER_EMAIL, // The email where you'll receive messages
+      to: process.env.RECEIVER_EMAIL,
       subject: 'New Contact Form Submission',
       text: `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`,
     };
 
-    // Send email
+    // Sending email
     await transporter.sendMail(mailOptions);
 
     res.status(200).json({ message: 'Email sent successfully!' });

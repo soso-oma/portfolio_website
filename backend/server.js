@@ -21,7 +21,7 @@ app.use(express.json());
 // Routes
 app.use('/api/contact', contactRoutes);
 
-// Health check
+// Backend check
 app.get('/', (req, res) => {
   res.send('✅ API is running...');
 });

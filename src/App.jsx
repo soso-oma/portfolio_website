@@ -14,7 +14,7 @@ function App() {
       {/* Navbar at top */}
       <Navbar />
 
-      {/* Main content (pushes footer to bottom) */}
+      {/* Main content */}
       <main className="flex-grow mt-16">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,7 +25,6 @@ function App() {
         </Routes>
       </main>
 
-      {/* Footer at bottom */}
       <Footer />
     </div>
   );
