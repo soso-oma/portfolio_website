@@ -65,7 +65,7 @@
 .navbar {
   background-color: #1e293b;
   color: white;
-  /*padding: 1rem 2rem;*/
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,6 +129,10 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 0 1rem 2rem; 
+  }
+
   .navbar-links {
     display: none; /* desktop */
   }
