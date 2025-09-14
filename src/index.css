@@ -129,10 +129,6 @@
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 1rem 0 1rem 2rem; 
-  }
-
   .navbar-links {
     display: none; /* desktop */
   }
