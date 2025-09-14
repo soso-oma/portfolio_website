@@ -53,7 +53,7 @@ function About() {
         <li>
           <strong>Authentication:</strong> JWT, Google OAuth, bcrypt
         </li>
-        <li> <strong>Other Tools:</strong> Git, GitHub, Cloudinary
+        <li> <strong>Other Tools:</strong> GitHub, Cloudinary
         </li>
       </ul>
 
